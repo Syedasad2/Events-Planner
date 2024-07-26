@@ -1,0 +1,93 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f3f4f6; /* Light gray background */
+  color: #333; /* Dark text color */
+  margin: 0;
+  padding: 0;
+}
+
+.navbar {
+  background-color: #4a90e2; /* Blue navbar background */
+  border-bottom: 1px solid #ddd; /* Light border */
+}
+
+.navbar a {
+  color: #ffffff; /* White text */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.navbar a:hover {
+  color: #f0f0f0; /* Lighter text on hover */
+}
+
+.navbar img {
+  height: 40px; /* Adjust logo height */
+}
+
+.secondary-nav {
+  background-color: #ffffff; /* White secondary nav background */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.secondary-nav ul {
+  padding: 0;
+  list-style-type: none;
+}
+
+.secondary-nav li {
+  display: inline;
+}
+
+.secondary-nav a {
+  color: #4a90e2; /* Blue link color */
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+}
+
+.secondary-nav a:hover {
+  color: #3579b3; /* Darker blue on hover */
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.event-card {
+  background-color: #ffffff; /* White card background */
+  border: 1px solid #ddd; /* Light border */
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+.event-card h2 {
+  margin-top: 0;
+  font-size: 1.2rem;
+  color: #333; /* Dark text color */
+}
+
+.event-card p {
+  color: #666; /* Gray text color */
+}
+
+.logout-btn {
+  position: fixed;
+  bottom: 20px;
+  left: 20px;
+  background-color: #ff6347; /* Tomato red button background */
+  color: #ffffff; /* White text */
+  border: none;
+  padding: 12px 24px;
+  font-size: 0.9rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.logout-btn:hover {
+  background-color: #ff4830; /* Darker red on hover */
+}
